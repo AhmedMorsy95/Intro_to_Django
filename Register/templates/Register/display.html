@@ -1,0 +1,11 @@
+
+      {%   for all in users %}
+          <ul>
+          <br>
+              <label> User :  {{ all.id }} </label> <br></br>
+              <label> user email :{{ all.email }} </label><br></br>
+              <label> username : {{ all.username }} </label><br></br>
+              <label> creation date : {{ all.creationDate }} </label><br></br>
+          </li>
+          </ul>
+      {% endfor %}
